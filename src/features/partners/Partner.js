@@ -7,7 +7,7 @@ const Partner = ({partner}) => {
             alt={partner.name}
             style={{width:'150px'}}
             />
-            <div>
+            <div className='m-4'>
                 <h5 className='fw-bold'>{partner.name}</h5>
                 {partner.description}
             </div>
