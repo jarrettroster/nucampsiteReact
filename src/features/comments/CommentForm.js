@@ -50,7 +50,7 @@ const CommentForm = ({ campsiteId }) => {
                                 <Label htmlFor='commentText'>Comment</Label>
                                 <Field name='commentText' as='textarea' rows='12' className='form-control' />
                             </FormGroup>
-                            <Button type='submit' color='primary'>
+                            <Button type='submit' color='primary'> 
                                 Submit
                             </Button>
                         </Form>
