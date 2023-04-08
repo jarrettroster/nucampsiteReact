@@ -1,5 +1,5 @@
-import { COMMENTS } from "../../app/shared/COMMENTS";
 import { createSlice } from "@reduxjs/toolkit";
+import { COMMENTS } from "../../app/shared/COMMENTS";
 
 const initialState = {
     commentsArray: COMMENTS
@@ -17,3 +17,4 @@ export const selectCommentsByCampsiteId = (campsiteId) => (state) => {
         (comment) => comment.campsiteId === parseInt(campsiteId)
         );
 };
+  
