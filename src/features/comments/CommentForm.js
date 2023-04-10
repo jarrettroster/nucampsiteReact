@@ -15,7 +15,7 @@ const CommentForm = ({ campsiteId }) => {
         campsiteId: parseInt(campsiteId),
         rating: values.rating,
         author: values.author,
-        commentText: values.commentText,
+        text: values.commentText,
         date: new Date(Date.now()).toISOString()
         };
         console.log(comment);
